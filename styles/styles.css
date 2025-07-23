@@ -130,3 +130,55 @@ label.menu-button:hover span {
     font-size: 9px;
     font-family: Verdana;
 }
+.privacy-link {
+    color: #666666;	
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    z-index: 9999;
+}
+.modal:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-content {
+    background: #d3d7dd;
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    padding-bottom: 1.5em;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+.modal-close {
+    position: absolute;
+    right: 50%;
+    font-size: 1em;
+    line-height: 1;
+    color: #50677C;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-close:hover {
+  color: #b22;
+}
+.modal-body {
+    color: #666666;
+    text-align: justify;
+    font-size: 9px;
+    font-family: Verdana;
+    margin-top: 3em;
+}
