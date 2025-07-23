@@ -107,7 +107,7 @@ label.menu-button {
 #leistung-tab:checked ~ .menu .btn7 span,
 #angebote-tab:checked ~ .menu .btn8 span {
     color: #8F9CAB;
-    text-shadow: 0px 0px 7px #8F9CAB;
+    text-shadow: 0px 0px 10px #98A3AF;
 }
 #fuer-sie-tab:checked ~ .content-panel .fuer-sie-content,
 #das-tab:checked ~ .content-panel .das-content,
@@ -122,7 +122,7 @@ label.menu-button {
 label.menu-button:hover,
 label.menu-button:hover span {
     color: #8F9CAB;
-    text-shadow: 0px 0px 3px #C8CACC;
+    text-shadow: 0px 0px 10px #98A3AF;
 }
 .foot {
     color: #666666;
